@@ -84,8 +84,8 @@ javascript:(function(){
 
     function bringBackDefault(event) {
         event.returnValue = true;
-        (typeof event.stopPropagation === 'function') && event.stopPropagation();
-        (typeof event.cancelBubble === 'function') && event.cancelBubble();
+        (typeof event.stopPropagation === "function") && event.stopPropagation();
+        (typeof event.cancelBubble === "function") && event.cancelBubble();
     }
 
     // Enable right click
